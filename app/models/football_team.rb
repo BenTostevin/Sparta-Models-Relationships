@@ -1,0 +1,2 @@
+class FootballTeam < ApplicationRecord
+end
