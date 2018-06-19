@@ -1,24 +1,13 @@
-# README
+# Sparta Models Relationships
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+This project contains three different resources (countries, cities and football teams) and contains data for each of the three resources.
 
-* Ruby version
+The data for the countries and cities resources were entered manually, whereas the data for the football teams' resource was entered using a seed file.
 
-* System dependencies
+The countries and cities resources were treated as a one-to-many relationship, as a city can only have one country, but a country can have many cities.
 
-* Configuration
+## Purpose
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The purpose of this project was to introduce me to Active Record associations and teach me how to navigate the rails console.
